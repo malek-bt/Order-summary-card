@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub repo]()
+- Solution URL: [GitHub repo](https://github.com/malek-bt/Order-summary-card)
 - Live Site URL: [Live site]()
 
 ## My process
