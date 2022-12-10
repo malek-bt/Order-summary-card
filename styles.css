@@ -1,0 +1,148 @@
+ @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap'); 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Red Hat Display', sans-serif;
+    background: url("images/pattern-background-desktop.svg") no-repeat;
+    background-color:  hsl(225, 100%, 94%);
+    background-size: 100% 50%;
+}
+
+.container {
+    margin: 0 auto;
+   display: grid;
+   place-items: center;
+    max-width: 30rem;
+   
+    
+}
+.card1{
+    margin-left: 0px ;
+    max-width: 30rem;
+    border-top-left-radius: 1rem ;
+    border-top-right-radius: 1rem  ;
+    border-bottom-left-radius: 1rem ;
+    border-bottom-right-radius: 1rem  ;
+    
+}
+
+ 
+.divimg img{
+    width: 100%;
+    border-bottom-left-radius: 0rem !important;
+    border-bottom-right-radius: 0rem  !important ;
+    border-top-left-radius: 1rem !important ;
+    border-top-right-radius: 1rem !important ;
+    
+}
+
+
+
+
+
+.annual-div {
+    background-color: hsl(225, 100%, 98%);
+    height: 5rem;
+    margin-bottom: 1.875rem;
+    border-radius: 0.9rem;
+    
+}
+
+.icon img {
+    width: 2.75rem !important;
+    margin-top: 1.25rem;
+    
+}
+.annual {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+   
+}
+span {
+    font-size: 1rem;
+    color: hsl(224, 23%, 55%);
+    
+}
+a {
+    color: hsl(245, 75%, 52%);
+    font-weight: 600;
+    cursor: pointer;
+}
+.card-title h1 {
+    color: hsl(223, 47%, 23%);
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600 ;
+    padding-top: 1.25rem;
+    padding-bottom: 0.3rem;
+}
+
+.card-text .txt {
+    font-size: 1rem;
+    text-align: center;
+    margin-left: 1.75rem;
+    margin-right: 1.75rem;
+    padding-top: 1rem;
+    
+    color: hsl(224, 23%, 55%);
+}
+
+.btn1 {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    -webkit-box-shadow: -1px 19px 11px -10px rgba(128,119,212,0.62);
+    -moz-box-shadow: -1px 19px 11px -10px rgba(128,119,212,0.62);
+    box-shadow: -1px 19px 11px -10px rgba(128,119,212,0.62);
+    
+}
+.btn1:hover {
+    background-color: hsl(245, 68%, 63%);
+    color: white; 
+}
+a:hover {
+    color: hsl(245, 68%, 63%);
+    
+}
+.btn2:hover {
+    color: hsl(223, 47%, 23%);
+   
+}
+
+
+.btn2 {
+    font-size: 1rem;
+    margin-top: 1rem;
+    background-color: hsl(225, 100%, 98%);
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 1.25rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+@media screen  and (max-width: 420px){
+    
+    .annual , span , a {
+        font-size: 0.75rem;
+        
+        
+    }
+
+    .icon img {
+        width: 1.875rem !important;
+        
+
+       
+    }
+
+}
