@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub repo](https://github.com/malek-bt/Order-summary-card)
-- Live Site URL: [Live site]()
+- Live Site URL: [Live site](https://malek-bt.github.io/Order-summary-card/)
 
 ## My process
 
